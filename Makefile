@@ -473,7 +473,8 @@ ifdef USE_NET
  WRAPPERSOURCES += \
    libs/network/jswrap_wifi.c \
    libs/network/esp32/jswrap_esp32_network.c \
-   targets/esp32/jswrap_esp32.c
+   targets/esp32/jswrap_esp32.c \
+   targets/esp32/jswrap_spi_dma.c
  INCLUDE += -I$(ROOT)/libs/network/esp32
  SOURCES +=  libs/network/esp32/network_esp32.c \
   targets/esp32/jshardwareI2c.c \
